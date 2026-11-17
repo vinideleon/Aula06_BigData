@@ -2,7 +2,7 @@
 #o valor da compra e verificar as seguites condições: compras a partir de R$ 200,00 recebem 10% de desconto; Compras abaixo de R$ 200,00 não recebem desconto; O programa devera calcular o desconto e apresentar o valor final da compra
 # ao termino de cinco venda
 for venda in range(5):
-    valor = float(input('qual o valor da compra? '))
+    valor = float(input('\nqual o valor da compra? '))
 
     if valor >= 200:
         desconto = valor * 0.10
